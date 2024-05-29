@@ -30,7 +30,7 @@ const Header = () => {
             </button>
             {isMenuOpen && (
               <ul className='absolute right-0 mt-2 w-32 bg-white border  flex flex-col items-center  shadow-lg'>
-                <li className={`text-md font-semibold p-1 ${pathname === '/' && 'text-[#FF7C7C]'} hover:text-black hover:border-[#FF7C7C] `}><Link href='/' className='active:text-[#FF7C7C]'> Blog</Link></li>
+                <li className={`text-md font-semibold p-1 ${(pathname !== '/works' && pathname !== '/contact' ) && 'text-[#FF7C7C]'} hover:text-black hover:border-[#FF7C7C] `}><Link href='/' className='active:text-[#FF7C7C]'> Blog</Link></li>
                 <li className={`text-md font-semibold  p-1  ${pathname === '/works' && 'text-[#FF7C7C]'} hover:text-black hover:border-[#FF7C7C] `}><Link href='/works'>Works</Link></li>
                 <li className={`text-md font-semibold  p-1  ${pathname === '/contact' && 'text-[#FF7C7C]'} hover:text-black hover:border-[#FF7C7C] `}><Link href='/contact'>Contact</Link></li>
               </ul>
@@ -38,7 +38,7 @@ const Header = () => {
           </div>
         ) : (
           <ul className='flex gap-5'>
-            <li className={`text-md font-semibold border p-1 ${pathname === '/' && 'text-[#FF7C7C]'} hover:text-black hover:border-[#FF7C7C] rounded-md`}><Link href='/' className='active:text-[#FF7C7C]'> Blog</Link></li>
+            <li className={`text-md font-semibold border p-1 ${(pathname !== '/works' && pathname !== '/contact' ) && 'text-[#FF7C7C]'} hover:text-black hover:border-[#FF7C7C] rounded-md`}><Link href='/' className='active:text-[#FF7C7C]'> Blog</Link></li>
             <li className={`text-md font-semibold border p-1 rounded-md ${pathname === '/works' && 'text-[#FF7C7C]'} hover:text-black hover:border-[#FF7C7C] rounded-md`}><Link href='/works'>Works</Link></li>
             <li className={`text-md font-semibold border p-1 rounded-md ${pathname === '/contact' && 'text-[#FF7C7C]'} hover:text-black hover:border-[#FF7C7C] rounded-md`}><Link href='/contact'>Contact</Link></li>
           </ul>

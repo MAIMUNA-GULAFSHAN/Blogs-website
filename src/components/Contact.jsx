@@ -6,7 +6,7 @@ import {
   FaLinkedin,
   FaGithub,
 } from "react-icons/fa";
-import Header from "@/components/Header";
+
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
@@ -36,7 +36,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center bg-gray-100">
+    <div className="min-h-full flex flex-col items-center mb-16">
       <main className="w-full max-w-6xl mx-auto p-6 flex flex-col items-center">
         <h1 className="text-3xl font-bold mb-6 text-[#FF7C7C]">Contact Us</h1>
         <div className="w-full flex flex-col lg:flex-row gap-6">
@@ -59,7 +59,7 @@ const Contact = () => {
               <FaMapMarkerAlt className="text-2xl text-[#FF7C7C] mr-4" />
               <div>
                 <h2 className="text-xl font-semibold">Address</h2>
-                <p className="text-gray-600">Development City, India</p>
+                <p className="text-gray-600">Hyderabad, India</p>
               </div>
             </div>
             <div className="flex items-center mb-4">

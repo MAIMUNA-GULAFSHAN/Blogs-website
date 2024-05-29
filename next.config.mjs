@@ -78,7 +78,7 @@ const nextConfig = {
                 pathname: '/bound/**',
             },
           ],
-          domains: ['regmedia.co.uk','docs.blink.sh','media0.faz.net','images.macrumors.com','cdn.lesnumeriques.com','thepointsguy.global.ssl.fastly.net','stadt-bremerhaven.de','images.frandroid.com','www.appinn.com','smallbiztrends.com','s3.crackedcdn.com','phandroid.com','www.presse-citron.net','1.img-dpreview.com','static1.xdaimages.com','ritholtz.com','www.androidauthority.com','media.npr.org','www.journaldugeek.com','i0.wp.com','9to5mac.com','static1.anpoimages.com','photos5.appleinsider.com','www.yankodesign.com',],
+          domains: ['media.zenfs.com','compote.slate.com','blogger.googleusercontent.com','brainbaking.com','blog.apnic.net','media.loom-app.com','www.accessnow.org','regmedia.co.uk','docs.blink.sh','media0.faz.net','images.macrumors.com','cdn.lesnumeriques.com','thepointsguy.global.ssl.fastly.net','stadt-bremerhaven.de','images.frandroid.com','www.appinn.com','smallbiztrends.com','s3.crackedcdn.com','phandroid.com','www.presse-citron.net','1.img-dpreview.com','static1.xdaimages.com','ritholtz.com','www.androidauthority.com','media.npr.org','www.journaldugeek.com','i0.wp.com','9to5mac.com','static1.anpoimages.com','photos5.appleinsider.com','www.yankodesign.com',],
     }
 };
 

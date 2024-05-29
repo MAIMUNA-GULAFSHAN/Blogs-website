@@ -6,40 +6,12 @@ import Link from "next/link";
 import { useMediaQuery } from "react-responsive";
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
+import Shimmer1 from "@/components/Shimmer1";
+import Lightbox from "@/components/Lightbox";
+import Footer from "@/components/Footer";
 
-const Lightbox = ({ image, onClose }) => (
-  
-  <div className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50">
-    <button
-      onClick={onClose}
-      className="absolute top-4 right-4 text-white text-5xl"
-    >
-      &times;
-    </button>
-    <div className="relative w-full max-w-3xl max-h-full p-4">
-      <Image
-        src={image}
-        alt="Lightbox"
-        layout="responsive"
-        width={800}
-        height={600}
-        className="object-contain h-full w-full"
-      />
-    </div>
-  </div>
-);
-const Shimmer = () => (
-  <div className="w-full p-1 flex shadow-md animate-pulse">
-    <div className="w-64 h-64 p-1 bg-gray-300"></div>
-    <div className="flex flex-col w-full ml-4">
-      <div className="h-6 bg-gray-300 rounded w-3/4 mb-4"></div>
-      <div className="h-4 bg-gray-300 rounded w-1/2 mb-2"></div>
-      <div className="h-4 bg-gray-300 rounded w-1/4 mb-2"></div>
-      <div className="h-4 bg-gray-300 rounded w-full mb-2"></div>
-      <div className="h-4 bg-gray-300 rounded w-full mb-2"></div>
-    </div>
-  </div>
-);
+
+
 export default function Home() {
   const mediaquery = useMediaQuery({ maxWidth: 767 });
   const [isMobile, setIsMobile] = useState(false);
@@ -78,13 +50,13 @@ console.log('blogs',blogs)
   };
 
   return (
-    <main className="h-screen w-screen m-0 flex flex-col items-center gap-2 relative">
+    <main className="h-full w-full m-0 flex flex-col items-center gap-4 relative">
       <header className="fixed top-0 left-0 w-full bg-white z-10 shadow-md mb-5">
         <Header />
       </header>
-      <div className="w-[75%] h-fit p-1 mt-14">
-        <div className="w-full h-fit flex flex-col gap-4 overflow-y-auto">
-          {loading ? (Array.from({ length: 5 }).map((_, index) => <Shimmer key={index} />)) : (blogs ? (
+      <div className="w-[80%] h-fit p-1 mt-14">
+        <div className="w-full h-fit flex flex-col gap-4 ">
+          {loading ? (Array.from({ length: 5 }).map((_, index) => <Shimmer1 key={index} />)) : (blogs ? (
             blogs.map((blog,i) => (
               <div
                 key={blog.url}
@@ -102,7 +74,7 @@ console.log('blogs',blogs)
                     width={480}
                     height={480}
                     className="m-0 h-full w-full object-cover"
-                    unoptimized
+                    // unoptimized
                   />
                 </div>
                   <div className="mx-1 p-1 w-full flex flex-col gap-4 justify-around">
@@ -145,6 +117,8 @@ console.log('blogs',blogs)
       {lightboxImage && (
         <Lightbox image={lightboxImage} onClose={closeLightbox} />
       )}
+    <Footer/>
+  
     </main>
   );
 }
