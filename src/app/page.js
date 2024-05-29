@@ -56,7 +56,7 @@ console.log('blogs',blogs)
       </header>
       <div className="w-[80%] h-fit p-1 mt-14">
         <div className="w-full h-fit flex flex-col gap-4 ">
-          {loading ? (Array.from({ length: 5 }).map((_, index) => <Shimmer1 key={index} />)) : (blogs ? (
+          {loading ? (Array.from({ length: 5 }).map((_, index) => <Shimmer1 key={index} />)) : (blogs && (
             blogs.map((blog,i) => (
               <div
                 key={blog.url}
@@ -109,9 +109,7 @@ console.log('blogs',blogs)
                   </div>
               </div>
             ))
-          ) : (
-            <h3>loading blogs</h3>
-          ))}
+          ) )}
         </div>
       </div>
       {lightboxImage && (
