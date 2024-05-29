@@ -11,7 +11,6 @@ import Lightbox from "@/components/Lightbox";
 import Footer from "@/components/Footer";
 
 
-
 export default function Home() {
   const mediaquery = useMediaQuery({ maxWidth: 767 });
   const [isMobile, setIsMobile] = useState(false);
@@ -36,6 +35,7 @@ export default function Home() {
       const data = await response.json();
       dispatch(addBlogs(data.articles));
       setLoading(false)
+      console.log('response fo blogs',data.articles)
     } catch (error) {
       console.error("Error fetching data:", error);
     }
@@ -50,7 +50,7 @@ console.log('blogs',blogs)
   };
 
   return (
-    <main className="h-full w-full m-0 flex flex-col items-center gap-4 relative">
+    <main className={ `h-full w-full m-0 flex flex-col items-center gap-4 relative`}>
       <header className="fixed top-0 left-0 w-full bg-white z-10 shadow-md mb-5">
         <Header />
       </header>
@@ -74,7 +74,7 @@ console.log('blogs',blogs)
                     width={480}
                     height={480}
                     className="m-0 h-full w-full object-cover"
-                    // unoptimized
+                    unoptimized
                   />
                 </div>
                   <div className="mx-1 p-1 w-full flex flex-col gap-4 justify-around">

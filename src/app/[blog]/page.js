@@ -80,7 +80,7 @@ const Page = ({ params }) => {
                 alt={blog?.title}
                 width={100}
                 height={100}
-                // unoptimized
+                unoptimized
 
                 className="w-full h-64 object-cover rounded-lg mb-4"
               />

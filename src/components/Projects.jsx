@@ -7,21 +7,21 @@ const Projects = () => {
       title: "CloudNote",
       description:
         "CloudNote is a secure and convenient online note-taking application that allows you to create, organize, and access your notes from anywhere, anytime. It offers features like rich text editing for formatting notes, cloud storage for accessibility across devices. Empower your productivity and streamline your note-taking with CloudNote!",
-        technologies:['React ',' React-Router ' ,' Nodejs ',' Expressjs ','Mongodb'],
+        technologies:['React ',' React-Router ' ,' Node ',' Express ','Mongodb'],
       githubUrl: "https://github.com/Md-Abdullah1/CloudNote",
     },
     {
       title: "NIDS using ML and DL with MERN Stack",
       description:
         "This innovative Network Intrusion Detection System (NIDS) leverages the power of Machine Learning (ML) and Deep Learning (DL) for advanced threat detection. Built with the MERN stack (MongoDB, Express.js, React.js, Node.js), it provides real-time threat analysis by continuously monitoring network traffic for suspicious activity. NIDS utilizes trained ML and DL models to identify patterns and anomalies indicative of attacks. Additionally, it allows for customizable alerts to receive real-time notifications of potential threats and offers optional scalability to handle large volumes of network traffic. Enhance network security and proactively mitigate attacks with this robust NIDS solution.",
-        technologies:['Machine Learning ', ' Deep learning ', ' Mongodb ', ' Nodejs ' , ' Expressjs ' , ' Embeddedjs ',' Flask '],
+        technologies:['Machine Learning ', ' Deep learning ', ' Mongodb ', ' Node ' , ' Express ' , ' Ejs ',' Flask '],
       githubUrl: "https://github.com/Md-Abdullah1/Network-Intrusion-Detection-System",
     },
     {
       title: "HRMS: Employee Management System",
       description:
         "This comprehensive HR Management System (HRMS) streamlines employee management processes. It facilitates efficient new employee recruitment and onboarding, stores and manages employee information (contact details, payroll, performance reviews),  integrates with time clocks or attendance management systems (optional), and streamlines payroll calculations and generates reports (optional). Optimize your HR processes, improve employee experience, and gain valuable insights with this user-friendly HRMS.",
-        technologies:[' Nextjs ',' Redux ', ' axios ', ' tailwind '],
+        technologies:[' Nextjs ',' Redux Toolkit', ' axios ', ' TTailwind '],
       githubUrl: "https://github.com/Md-Abdullah1/appkube-hrms-ui",
     },
     {
@@ -35,7 +35,7 @@ const Projects = () => {
         "title": "Todo List ",
         "description": "A simple and user-friendly todo list application built with React and Tailwind CSS. Features include adding, editing, and deleting tasks. Local storage ensures tasks persist even after browser refresh. The responsive design adapts seamlessly across various screen sizes.",
         "githubUrl": "https://github.com/Md-Abdullah1/Todo-List",
-        "technologies": [" React ", "Tailwind CSS ", " Local Storage"]
+        "technologies": [" React ", " Tailwind CSS ", " Local Storage"]
       }
   ];
   return (
