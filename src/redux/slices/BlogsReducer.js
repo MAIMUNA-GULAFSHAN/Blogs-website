@@ -10,12 +10,8 @@ const BlogsReducer = createSlice({
 
             // state.blogs = action.payload
             // console.log(`in adding blog ${state.blogs}`)
-            state.blogs = action.payload?.filter((val)=>{
-                if(val.urlToImage){
-                    // console.log('valueof blog',val)
-                    return val
-                }
-            })
+            state.blogs = action.payload
+            
         }
     }
 

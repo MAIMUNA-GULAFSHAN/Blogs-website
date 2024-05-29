@@ -14,7 +14,8 @@ import Footer from "@/components/Footer";
 export default function Home() {
   const mediaquery = useMediaQuery({ maxWidth: 767 });
   const [isMobile, setIsMobile] = useState(false);
-  const blogs = useSelector((state) => state.Blogs.blogs);
+  // const reduxBlogs = useSelector((state) => state.Blogs.blogs);
+  const [blogs,setBlogs] = useState([])
   const apiKey = "694c5d19d6b2445dbd12fd7995f26b99";
   const dispatch = useDispatch();
   const [loading, setLoading] = useState(true);
@@ -25,6 +26,7 @@ export default function Home() {
     fetchData();
     const mediaQuery2 = mediaquery
     setIsMobile(mediaQuery2);
+
   }, []);
 
   const fetchData = async () => {
@@ -33,7 +35,13 @@ export default function Home() {
         `https://newsapi.org/v2/everything?q=Apple&from=2024-05-27&sortBy=popularity&apiKey=${apiKey}`
       );
       const data = await response.json();
-      dispatch(addBlogs(data.articles));
+      const filteredData = data.articles.filter((val)=>{
+        if(val.urlToImage){
+          return val;
+        }
+      })
+      dispatch(addBlogs(filteredData));
+      setBlogs(filteredData)
       setLoading(false)
       console.log('response fo blogs',data.articles)
     } catch (error) {
