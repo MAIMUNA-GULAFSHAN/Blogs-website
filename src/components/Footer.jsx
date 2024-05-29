@@ -17,7 +17,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-          <FaEnvelope className="text-3xl text-[#FF7C7C] " />
+          <FaEnvelope className="text-xl md:text-3xl text-[#FF7C7C] " />
           </a>
         </div>
         
@@ -28,7 +28,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaLinkedin className="text-3xl text-[#FF7C7C] " />
+            <FaLinkedin className="text-xl md:text-3xl text-[#FF7C7C] " />
           </a>
         </div>
         <div className="flex items-center">
@@ -38,11 +38,11 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaGithub className="text-3xl text-[#FF7C7C] " />
+            <FaGithub className="text-xl md:text-3xl text-[#FF7C7C] " />
           </a>
         </div>
       </div>
-      <span className="text-md  text-[#FF7C7C]  ">
+      <span className="text-base md:text-lg text-[#FF7C7C]  ">
       &copy; 2024 Everyday Blogs . All Rights Reserved.
       </span>
     </div>

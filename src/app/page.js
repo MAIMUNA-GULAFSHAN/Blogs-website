@@ -32,10 +32,10 @@ export default function Home() {
   const fetchData = async () => {
     try {
       const response = await fetch(
-        `https://newsapi.org/v2/everything?q=Apple&from=2024-05-27&sortBy=popularity&apiKey=${apiKey}`
+        `https://newsapi.org/v2/everything?q=bitcoin&apiKey=${apiKey}`
       );
       const data = await response.json();
-      console.log('response fo blogs',data.articles)
+      console.log('response fo blogs',data?.articles)
       const filteredData = await data?.articles.filter((val)=>{
         if(val.urlToImage){
           return val;
@@ -59,7 +59,7 @@ console.log('blogs',blogs)
 
   return (
     <main className={ `h-full w-full m-0 flex flex-col items-center gap-4 relative`}>
-      <header className="fixed top-0 left-0 w-full bg-white z-10 shadow-md mb-5">
+      <header className="fixed top-0 left-0 w-full bg-white z-10 shadow-md mb-5 mx-0">
         <Header />
       </header>
       <div className="w-[80%] h-fit p-1 mt-14">

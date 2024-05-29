@@ -11,6 +11,7 @@ const BlogsReducer = createSlice({
             // state.blogs = action.payload
             // console.log(`in adding blog ${state.blogs}`)
             state.blogs = action.payload
+            // console.log(`blog in redux`.action.payload)
             
         }
     }

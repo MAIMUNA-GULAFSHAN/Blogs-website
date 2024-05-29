@@ -15,6 +15,7 @@ const Lightbox = ({ image, onClose }) => {
         src={image}
         alt="Lightbox"
         layout="responsive"
+        unoptimized
         width={800}
         height={600}
         className="object-contain h-full w-full"
