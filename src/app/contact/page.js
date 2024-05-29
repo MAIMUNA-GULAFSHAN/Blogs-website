@@ -1,15 +1,13 @@
 import Header from '@/components/Header'
 import React from 'react'
-
-const Contact = () => {
+import Contact from '@/components/Contact'
+const page = () => {
   return (
     <div>
       <Header/>
-      <div>
-        
-      </div>
+      <Contact/>
     </div>
   )
 }
 
-export default Contact
+export default page
