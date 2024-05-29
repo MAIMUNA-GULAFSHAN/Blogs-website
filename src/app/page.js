@@ -35,7 +35,8 @@ export default function Home() {
         `https://newsapi.org/v2/everything?q=Apple&from=2024-05-27&sortBy=popularity&apiKey=${apiKey}`
       );
       const data = await response.json();
-      const filteredData = data.articles.filter((val)=>{
+      console.log('response fo blogs',data.articles)
+      const filteredData = await data?.articles.filter((val)=>{
         if(val.urlToImage){
           return val;
         }
@@ -43,7 +44,6 @@ export default function Home() {
       dispatch(addBlogs(filteredData));
       setBlogs(filteredData)
       setLoading(false)
-      console.log('response fo blogs',data.articles)
     } catch (error) {
       console.error("Error fetching data:", error);
     }
