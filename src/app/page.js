@@ -84,12 +84,12 @@ useEffect(() => {
       <header className="fixed top-0 left-0 w-full bg-white z-10 shadow-md  mx-0">
         <Header onSearch={handleSearch} onThemeChange={handleThemeChange} darkTheme={darkTheme} />
       </header>
-      <div className="w-[80%] h-fit p-1 mt-14 mb-24 ">
+      <div className="w-[80%] h-fit p-1 mt-20 mb-24 ">
         <div className="w-full h-fit flex flex-col gap-4 ">
           {loading ? (Array.from({ length: 5 }).map((_, index) => <Shimmer1 key={index} />)) : (filteredBlogs && (
             filteredBlogs.map((blog,i) => (
               <motion.div
-                key={blog.url}
+                key={blog.title}
                 className={`w-full p-1 flex shadow-md justify-evenly gap-4 ${
                   isMobile ? "flex-col" : "flex-row"
                 } ${darkTheme ? 'bg-gray-700' : 'bg-white'}`}
@@ -100,13 +100,13 @@ useEffect(() => {
               >
                 <motion.div
                   className="w-64 h-64 p-1 relative cursor-pointer hover:opacity-75"
-                  onClick={() => openLightbox(blog.urlToImage)}
+                  onClick={() => openLightbox(blog.thumbnail)}
                   
                   whileHover={{ scale: 1.05, rotate: 2 }}
                   transition={{ duration: 0.3 }}
                 >
                   <Image
-                    src={blog.urlToImage}
+                    src={blog.thumbnail}
                     alt={blog.title}
                     width={480}
                     height={480}
@@ -132,7 +132,7 @@ useEffect(() => {
                         }`}
                         whileHover={{ color: darkTheme ? "#FFD700" : "#0000FF" }}
                       >
-                        {blog.publishedAt.split("T")[0]}
+                        {blog.date}
                       </motion.p>
                       <motion.p
                         className={`font-bold ${
@@ -140,7 +140,7 @@ useEffect(() => {
                         }`}
                         whileHover={{ color: darkTheme ? "#FFD700" : "#0000FF" }}
                       >
-                        {blog.source.name}
+                        {blog.author}
                       </motion.p>
                     </div>
                     <motion.p className={`${isMobile ? "text-sm" : "text-xl"}`}

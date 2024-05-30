@@ -1,69 +1,213 @@
 [
+
     {
-      "author": "John Doe",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, magna sit amet convallis laoreet, ex ipsum bibendum mauris, ac faucibus risus nunc vel odio. Sed finibus felis eget massa tincidunt, vel vestibulum mi eleifend. Curabitur eu libero massa. Fusce vel nisi non mauris semper egestas. [+500 chars]",
-      "description": "Discover the latest advancements in AI technology and how they're shaping the future of various industries.",
-      "publishedAt": "2024-05-20T10:30:00Z",
-      "source": {
-        "id": null,
-        "name": "TechCrunch"
-      },
-      "title": "The Rise of AI: Transforming Industries",
-      "url": "https://techcrunch.com/2024/05/20/the-rise-of-ai-transforming-industries/",
-      "urlToImage": "https://media.licdn.com/dms/image/D4D12AQExQrhlNjo8ZQ/article-cover_image-shrink_600_2000/0/1684909246745?e=2147483647&v=beta&t=SPhsj51S12vRZ48Y2tx0GRaph7WRX5TyVWH91HlRPVc"
+      "title": "Exploring the Future of AI",
+      "date": "2024-05-01",
+      "author": "Alice Johnson",
+      "description": "Artificial intelligence is rapidly evolving and influencing various industries. From healthcare to finance, AI is transforming processes and enhancing efficiencies. This blog explores the future possibilities and the ethical considerations surrounding AI advancements.",
+      "thumbnail": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
     },
     {
-      "author": "Vinamrata Chaturvedi, Quartz",
-      "content": "Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio. [+1000 chars]",
-      "description": "Discover the fascinating world of space exploration and the latest missions to unravel the mysteries of the universe.",
-      "publishedAt": "2024-05-18T18:20:00Z",
-      "source": {
-        "id": null,
-        "name": "National Geographic"
-      },
-      "title": "Unveiling the Secrets of the Cosmos",
-      "url": "https://www.nationalgeographic.com/2024/05/18/unveiling-the-secrets-of-the-cosmos/",
-      "urlToImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBhYvpcVmwQbKC0lIFhD1nI8rY65QhO6adWA&s"
-    },
-   
-    {
-      "author": "Emily Wilson",
-      "content": "Nulla facilisi. In vel urna vel lectus bibendum tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec auctor, nisi in interdum bibendum, enim magna auctor est, sit amet fringilla erat tellus vel nisl. Ut vel ultrices velit. [+800 chars]",
-      "description": "Explore the latest trends in sustainable fashion and how designers are embracing eco-friendly materials.",
-      "publishedAt": "2024-05-19T15:45:00Z",
-      "source": {
-        "id": null,
-        "name": "Vogue"
-      },
-      "title": "The Future of Sustainable Fashion",
-      "url": "https://www.vogue.com/2024/05/19/the-future-of-sustainable-fashion/",
-      "urlToImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9WGHANMJdDH103RKJAz8IMWqaSYdNiJZCMw&s"
-    },
-   
-    {
-      "author": "Sarah Thompson",
-      "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. [+700 chars]",
-      "description": "Explore the latest scientific breakthroughs in renewable energy and how they're paving the way for a greener future.",
-      "publishedAt": "2024-05-17T22:00:00Z",
-      "source": {
-        "id": null,
-        "name": "Scientific American"
-      },
-      "title": "The Future of Renewable Energy: Powering a Sustainable World",
-      "url": "https://www.scientificamerican.com/2024/05/17/the-future-of-renewable-energy-powering-a-sustainable-world/",
-      "urlToImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGwrMx8qMRe9jFwy7osi9pRvZAPzdqTBhZ4A&s"
+      "title": "The Rise of Quantum Computing",
+      "date": "2024-05-02",
+      "author": "Bob Smith",
+      "description": "Quantum computing is set to revolutionize the tech landscape with its unparalleled processing power. This article delves into the basics of quantum mechanics and its application in computing. Learn how quantum computers could solve complex problems beyond the reach of classical computers.",
+      "thumbnail": "https://media.licdn.com/dms/image/D4D12AQHdFiHnNj1xQw/article-cover_image-shrink_600_2000/0/1710790263248?e=2147483647&v=beta&t=54jYoqKRLNadgLmbYsMqB6RCPO2WhHXAM3xLPpM1U9I"
     },
     {
-      "author": "Michael Roberts",
-      "content": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? [+900 chars]",
-      "description": "Explore the latest trends in modern architecture and how designers are pushing the boundaries with innovative designs.",
-      "publishedAt": "2024-05-16T14:30:00Z",
-      "source": {
-        "id": null,
-        "name": "Architectural Digest"
-      },
-      "title": "Redefining Spaces: Modern Architecture's Cutting Edge",
-      "url": "https://www.architecturaldigest.com/2024/05/16/redefining-spaces-modern-architectures-cutting-edge/",
-      "urlToImage": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+      "title": "Blockchain Beyond Cryptocurrencies",
+      "date": "2024-05-03",
+      "author": "Charlie Brown",
+      "description": "While blockchain technology is best known for its role in cryptocurrencies, its potential extends far beyond. This blog explores blockchain applications in supply chain management, healthcare, and more. Discover how blockchain ensures transparency and security in various fields.",
+      "thumbnail": "https://media.licdn.com/dms/image/D4D12AQHlkUmKNSyaUg/article-cover_image-shrink_720_1280/0/1690890177002?e=2147483647&v=beta&t=rUpke1Qia7Nd_izfK3ACTdDS4EvWbCE6WrpbzfV6pc4"
+    },
+    {
+      "title": "The Impact of 5G on Connectivity",
+      "date": "2024-05-04",
+      "author": "Dana White",
+      "description": "The advent of 5G technology promises to revolutionize communication. With faster speeds and lower latency, 5G will enhance mobile experiences and enable new innovations. This article examines the potential impacts of 5G on industries like autonomous driving and remote surgery.",
+      "thumbnail": "https://stl.tech/wp-content/uploads/2022/08/img1-2.jpg"
+    },
+    {
+      "title": "Sustainable Tech Innovations",
+      "date": "2024-05-05",
+      "author": "Evan Green",
+      "description": "Sustainable technology is at the forefront of combating climate change. This blog highlights the latest innovations in green tech, from renewable energy solutions to eco-friendly manufacturing. Learn how these technologies are paving the way for a sustainable future.",
+      "thumbnail": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.lawyr.it%2Findex.php%2Farticles%2Fdebates%2F418-companies-should-not-be-allowed-to-have-patents-on-green-tech&psig=AOvVaw2mcduTbzhDrYbd-sT_OUvm&ust=1717151483627000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCIi6h_iVtYYDFQAAAAAdAAAAABAO"
+    },
+    {
+      "title": "Virtual Reality: The Next Frontier",
+      "date": "2024-05-06",
+      "author": "Fiona Davis",
+      "description": "Virtual reality is not just for gaming anymore. It has practical applications in education, training, and therapy. This blog explores how VR is creating immersive experiences and revolutionizing the way we interact with digital environments.",
+      "thumbnail": "https://media.licdn.com/dms/image/D5612AQEbL7ve7edR6w/article-cover_image-shrink_600_2000/0/1702892464405?e=2147483647&v=beta&t=JoVb1Dn5xLn0ao0-xn7STKs3eGsN9FkoLunvwCXJ7nY"
+    },
+    {
+      "title": "Cybersecurity Trends in 2024",
+      "date": "2024-05-07",
+      "author": "George Harris",
+      "description": "As cyber threats become more sophisticated, staying ahead of cybersecurity trends is crucial. This article discusses the latest in cybersecurity measures, including AI-driven defenses and zero-trust architectures. Protect your data with these cutting-edge security practices.",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRH6F-iMgjqKxKiGsEVOL96cBW6YJ04_qemw&s"
+    },
+    {
+      "title": "IoT: Connecting the World",
+      "date": "2024-05-08",
+      "author": "Hannah Lee",
+      "description": "The Internet of Things (IoT) is transforming everyday objects into smart devices. From smart homes to industrial IoT, this blog explores how interconnected devices are enhancing convenience and efficiency. Understand the benefits and challenges of living in an IoT-connected world.",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7uAvLlmJPsMkvM-b5xuXJv36l8cCRdwtdAQ&s"
+    },
+    {
+      "title": "Advancements in Renewable Energy",
+      "date": "2024-05-09",
+      "author": "Ian Walker",
+      "description": "Renewable energy technologies are evolving rapidly to meet the demands of a sustainable future. This blog covers the latest advancements in solar, wind, and hydro energy. Discover how these innovations are reducing our reliance on fossil fuels and lowering carbon footprints.",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaa49-qGrPhEgH2mkY5fn0YRXq8j2NTv8JxA&s"
+    },
+    {
+      "title": "The Evolution of E-Commerce",
+      "date": "2024-05-10",
+      "author": "Jane Adams",
+      "description": "E-commerce continues to grow, adapting to changing consumer behaviors and technologies. This article looks at how trends like mobile shopping, AI-driven recommendations, and same-day delivery are shaping the e-commerce landscape. Learn about the future of online shopping.",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRznzRwU3qH7T9rQ_3UytT_jqO8ME918sbOIw&s"
+    },
+    {
+      "title": "Smart Cities: Urban Planning for the Future",
+      "date": "2024-05-11",
+      "author": "Kyle Brown",
+      "description": "Smart cities integrate technology to improve urban living and sustainability. This blog explores smart infrastructure, IoT applications in urban management, and the benefits of data-driven city planning. See how smart cities aim to enhance the quality of life for their residents.",
+      "thumbnail": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dezeen.com%2F2022%2F08%2F01%2Ffuturistic-cities-planned-architecture-masterplanning-urban-design%2F&psig=AOvVaw2BAg7hy0YRfP-by08Rk1ys&ust=1717151697297000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCMjDwNqWtYYDFQAAAAAdAAAAABAJ"
+    },
+    {
+      "title": "The Role of Big Data in Healthcare",
+      "date": "2024-05-12",
+      "author": "Laura Clark",
+      "description": "Big data analytics is revolutionizing healthcare by providing insights for better decision-making. This article examines how data is used to predict outbreaks, personalize treatment plans, and improve patient outcomes. Understand the transformative power of big data in healthcare.",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs-xKVkDg2mT6FZAlBJ9kHyrG4MdM0kr2-KQ&s"
+    },
+    {
+      "title": "Autonomous Vehicles: Driving the Future",
+      "date": "2024-05-13",
+      "author": "Mike Nelson",
+      "description": "Autonomous vehicles are poised to transform transportation. This blog covers the technology behind self-driving cars, their potential benefits, and the challenges they face. Explore how autonomous vehicles could make travel safer, more efficient, and accessible.",
+      "thumbnail": "https://www.lhpes.com/hubfs/What-is-the-Future-of-Autonomous-Vehicles--AS_138315218.png"
+    },
+    {
+      "title": "The Growth of Remote Work",
+      "date": "2024-05-14",
+      "author": "Nancy Peters",
+      "description": "Remote work has become a permanent fixture in the modern work environment. This article explores the benefits and challenges of remote work, from increased flexibility to the need for robust cybersecurity. Learn how companies are adapting to a remote-first approach.",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1ML9C0SoEwm7FMh5vN-GWdgOGCfwVlogJwQ&s"
+    },
+    {
+      "title": "The Promise of Biotechnology",
+      "date": "2024-05-15",
+      "author": "Oscar Reynolds",
+      "description": "Biotechnology is at the forefront of medical and agricultural innovation. This blog highlights breakthroughs in gene editing, personalized medicine, and sustainable agriculture. Discover how biotechnology is addressing global challenges and improving lives.",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx5HiACQlJvijO5rMusMnwAFp3O44vgmAjyQ&s"
+    },
+    {
+      "title": "Ethical AI: Balancing Innovation and Responsibility",
+      "date": "2024-05-16",
+      "author": "Paula Robinson",
+      "description": "As AI technology advances, ethical considerations become increasingly important. This article discusses the ethical challenges of AI, including bias, privacy, and job displacement. Explore the strategies for developing responsible AI that benefits society.",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTWV19DY72vSxPUAJLmiIe-8_cfpUfGVW3Tw&s"
+    },
+    {
+      "title": "The Future of Wearable Technology",
+      "date": "2024-05-17",
+      "author": "Quincy Taylor",
+      "description": "Wearable technology is evolving beyond fitness trackers to include advanced health monitoring and augmented reality. This blog explores the latest innovations in wearables and their potential applications. Learn how wearable tech is enhancing our daily lives.",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbITDp07XoxLneDUPZVnPmXZAh6XJ7pBen4g&s"
+    },
+    {
+      "title": "The Impact of Social Media on Society",
+      "date": "2024-05-18",
+      "author": "Rachel Turner",
+      "description": "Social media has transformed communication, but it also raises concerns about mental health and misinformation. This article examines the positive and negative effects of social media on society. Discover how to navigate the digital landscape responsibly.",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKilgZl2cOmpCZAqgb2qQ_VfOOiXAcOCpzaQ&s"
+    },
+    {
+      "title": "Green Building: Sustainable Architecture",
+      "date": "2024-05-19",
+      "author": "Steve Walker",
+      "description": "Green building practices are essential for creating sustainable and energy-efficient structures. This blog covers the principles of sustainable architecture, from eco-friendly materials to energy-efficient designs. Learn how green buildings contribute to environmental conservation.",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnREy0f3sJqje-bKy5sWw5ONSLZxpAbyy6_w&s"
+    },
+    {
+      "title": "Artificial Intelligence in Education",
+      "date": "2024-05-20",
+      "author": "Tina Young",
+      "description": "AI is revolutionizing education by providing personalized learning experiences and automating administrative tasks. This article explores the applications of AI in education and its potential to enhance student outcomes. See how AI is shaping the future of learning.",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7Ug5FaumqjE6I_S2ktb7b4l5CynCMAACPHA&s"
+    },
+    {
+      "title": "Fintech: Transforming Financial Services",
+      "date": "2024-05-21",
+      "author": "Uma Patel",
+      "description": "Financial technology, or fintech, is changing the way we handle money. From mobile payments to blockchain-based transactions, fintech innovations are making financial services more accessible and efficient. Discover the trends driving the fintech revolution.",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTa7OGvWd8JdqkdEGra7JWB4d5q6inuqwtLw&s"
+    },
+    {
+      "title": "Augmented Reality: Enhancing Real World Experiences",
+      "date": "2024-05-22",
+      "author": "Victor Martinez",
+      "description": "Augmented reality (AR) overlays digital information onto the real world, creating enhanced interactive experiences. This blog explores the use of AR in gaming, retail, education, and more. Learn how AR is blending the physical and digital worlds.",
+      "thumbnail": "https://miro.medium.com/v2/resize:fit:1200/0*3IcHdwzG_yZ8nFUF.jpg"
+    },
+    {
+      "title": "Smart Homes: The Future of Living",
+      "date": "2024-05-23",
+      "author": "Wendy Zhang",
+      "description": "Smart home technology is making our living spaces more connected and efficient. From smart thermostats to automated lighting, this article examines the latest in smart home innovations. Discover how these technologies can simplify your life and save energy.",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLBwvOCDD7paPKeG1a4KdKK1383dAZO05igA&s"
+    },
+    {
+      "title": "The Role of AI in Climate Change",
+      "date": "2024-05-24",
+      "author": "Xander Lewis",
+      "description": "Artificial intelligence is being used to combat climate change by optimizing energy use, predicting environmental changes, and more. This blog explores the various ways AI is contributing to environmental conservation and sustainability.",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSELt0Sa1v3E-VkHroFhBb0vq_vNJ6FfYecgw&s"
+    },
+    {
+      "title": "Telemedicine: The Future of Healthcare",
+      "date": "2024-05-25",
+      "author": "Yara Ahmed",
+      "description": "Telemedicine is transforming healthcare delivery by providing remote consultations and monitoring. This article examines the benefits and challenges of telemedicine, and how it is improving access to healthcare services, especially in rural areas.",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmvANNeDoopbyMAibnpdo5G_1kloTuYDgvMA&s"
+    },
+    {
+      "title": "The Evolution of Robotics",
+      "date": "2024-05-26",
+      "author": "Zachary Thomas",
+      "description": "Robotics technology is advancing rapidly, with applications ranging from manufacturing to healthcare. This blog explores the latest innovations in robotics and their potential to transform various industries. Learn about the future of robots in our everyday lives.",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW-i5pmXSjzwkFddJmbpootlUmTKbqE9CM4g&s"
+    },
+    {
+      "title": "Digital Transformation in Business",
+      "date": "2024-05-27",
+      "author": "Abby Wright",
+      "description": "Digital transformation is essential for businesses to stay competitive in the modern market. This article explores the strategies companies are using to integrate digital technologies into their operations, enhancing efficiency and customer experience.",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVDH-xAsqptLoknIY-MbJ3GXRSSt-J1kbZhA&s"
+    },
+    {
+      "title": "Artificial Intelligence in Creative Arts",
+      "date": "2024-05-28",
+      "author": "Ben Harris",
+      "description": "AI is making its mark on the creative arts, from generating music to creating visual art. This blog examines the intersection of technology and creativity, and how AI tools are being used by artists to push the boundaries of traditional art forms.",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrj03opPC3bQ4w6PU2z9Ogp8cNWGy0OP9LYQ&s"
+    },
+    {
+      "title": "Sustainable Agriculture: Feeding the Future",
+      "date": "2024-05-29",
+      "author": "Chloe White",
+      "description": "Sustainable agriculture practices are crucial for feeding the growing global population. This article explores innovative farming techniques that minimize environmental impact and improve crop yields. Discover how technology is helping to create a sustainable food system.",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7IbjK931K5lvYtsmAexkoirHoD8Dsa6z6bg&s"
+    },
+    {
+      "title": "Advancements in Space Exploration",
+      "date": "2024-05-30",
+      "author": "David Miller",
+      "description": "Space exploration is entering a new era with advancements in technology and international collaborations. This blog covers recent achievements in space travel, satellite technology, and the search for extraterrestrial life. Learn about the future of humanity in space.",
+      "thumbnail": "https://www.theweek.in/content/dam/week/news/sci-tech/images/2021/1/28/space-technology1.jpg"
     }
   ]

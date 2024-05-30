@@ -1,7 +1,7 @@
 // 'use client'
 import React from "react";
-
-const Projects = () => {
+import { motion } from "framer-motion";
+const Projects = ({darkTheme}) => {
   const projectsData = [
     {
       title: "CloudNote",
@@ -39,15 +39,19 @@ const Projects = () => {
       }
   ];
   return (
-    <div className="w-[80%]  h-fit p-2 mb-24 flex flex-col gap-5">
+    <motion.div className="w-[80%]  h-fit p-2 mb-24 flex flex-col gap-5">
       <h2 className="text-xl text-[#FF7C7C] font-bold "> Works and Projects </h2>
       <div className="flex flex-col gap-5 items-center">
       {projectsData &&
         projectsData.map((val) => {
           return (
-            <div key={val.githubUrl} className="flex flex-col gap-3 justify-start shadow-md p-2">
-              <h2 className="text-lg text-[#FF7C7C] font-semibold">{val.title}</h2>
-              <p>{val.description}</p>
+            <motion.div key={val.githubUrl} className="flex flex-col gap-3 justify-start shadow-md p-2"
+            whileHover={{ scale: 1.02 }}
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.3 }}>
+              <motion.h2 className="text-lg text-[#FF7C7C] font-semibold" whileHover={{ color: darkTheme ? "#FFD700" : "#0000FF" }}>{val.title}</motion.h2>
+              <motion.p whileHover={{ color: darkTheme ? "#FFD700" : "#0000FF" }}>{val.description}</motion.p>
                <p className="text-base text-[#FF7C7C] ">{val.technologies}</p>
               <a
                 href={val.githubUrl}
@@ -58,11 +62,11 @@ const Projects = () => {
                 {" "}
                 View on Github
               </a>
-            </div>
+            </motion.div>
           );
         })}
       </div>
-    </div>
+    </motion.div>
   );
 };
 

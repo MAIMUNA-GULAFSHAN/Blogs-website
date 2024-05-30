@@ -24,7 +24,7 @@ const Footer = ({ darkTheme }) => {
         <div className="flex items-center ">
           <a
             href="https://www.linkedin.com/in/md-abdullah-29a067260/"
-            className= {`${darkTheme ? 'text-white' : 'text-[#FF7C7C]'}`}
+            // className={`${darkTheme ? 'text-white' : 'text-[#FF7C7C]'}`}
             target="_blank"
             rel="noopener noreferrer"
           >
