@@ -72,9 +72,9 @@ const Header = ({ onSearch, onThemeChange, darkTheme }) => {
             </button>
             {isMenuOpen && (
               <ul
-                className={`absolute right-0 mt-2 w-32  ${
+                className={`absolute right-0 mt-2 w-32 p-2  ${
                   darkTheme ? "bg-gray-700 text-white" : "bg-white text-black"
-                } border  flex flex-col items-center  shadow-lg`}
+                } border  flex flex-col items-center gap-2 shadow-lg`}
               >
                 <li
                   className={`text-md font-semibold p-1 ${
@@ -104,6 +104,7 @@ const Header = ({ onSearch, onThemeChange, darkTheme }) => {
                 >
                   <Link href="/contact">Contact</Link>
                 </li>
+                <Switch checked={darkTheme} onChange={onThemeChange} className="" />
               </ul>
             )}
           </div>

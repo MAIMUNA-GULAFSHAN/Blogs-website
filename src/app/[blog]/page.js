@@ -10,6 +10,7 @@ import { useSelector } from "react-redux";
 
 const Page = ({ params }) => {
   const [storedBlog, setStoredBlog] = useState(null);
+  const [darkTheme, setDarkTheme] = useState(false);
   const [lightboxImage, setLightboxImage] = useState(null);
   const [loading, setLoading] = useState(true);
   const blogs = useSelector((state) => state.Blogs.blogs);
@@ -35,6 +36,14 @@ const Page = ({ params }) => {
       setLoading(false);
     }
   }, [reduxBlog]);
+
+  useEffect(() => {
+    if (darkTheme) {
+      document.body.classList.add("dark-theme");
+    } else {
+      document.body.classList.remove("dark-theme");
+    }
+  }, [darkTheme]);
   // const pathname = usePathname()
   // useEffect(()=>{
 
@@ -51,56 +60,74 @@ const Page = ({ params }) => {
   const closeLightbox = () => {
     setLightboxImage(null);
   };
+  const handleThemeChange = (checked) => {
+    setDarkTheme(checked);
+  };
   return (
     <>
-      <Header />
+      <Header onThemeChange={handleThemeChange} darkTheme={darkTheme} />
       {loading ? (
         <Shimmer2 />
       ) : (
         <div className="max-w-4xl mx-auto py-12   mb-16">
-          <div className="bg-white shadow-md rounded-lg p-8">
-            <h1 className="text-3xl font-bold mb-4">{blog?.title}</h1>
-            <div className="mb-4">
-              <span className="font-semibold">Author:</span> {blog?.author}
+          <div
+            className={`${
+              darkTheme ? "bg-gray-700" : "bg-white"
+            } shadow-md rounded-lg p-8`}
+          >
+            <h1
+              className={`${
+                darkTheme ? "text-white" : "text-black"
+              } text-3xl font-bold mb-4`}
+            >
+              {blog?.title}
+            </h1>
+            <div className={`${darkTheme ? "text-white" : 'text-black'} mb-4`}>
+              <span
+                className={`${
+                  darkTheme ? "text-white" : "text-black"
+                } font-semibold`}
+              >
+                Author:
+              </span>{" "}
+              {blog?.author}
             </div>
-            <div className="mb-4">
-              <span className="font-semibold">Source:</span>{" "}
-              {blog?.source?.name}
-            </div>
-            <div className="mb-4">
-              <span className="font-semibold">Published At:</span>{" "}
-              {blog?.publishedAt ? blog.publishedAt.split("T")[0] : ""}
+
+            <div className={`${darkTheme ? "text-white" : 'text-black'} mb-4`}>
+              <span
+                className={`${
+                  darkTheme ? "text-white" : "text-black"
+                } font-semibold`}
+              >
+                Published At:
+              </span>
+              {blog?.date ? blog?.date : ""}
             </div>
             <div
               className="mb-8 relative cursor-pointer hover:opacity-75"
-              onClick={() => openLightbox(blog.urlToImage)}
+              onClick={() => openLightbox(blog.thumbnail)}
             >
               <Image
-                src={blog?.urlToImage}
+                src={blog?.thumbnail}
                 alt={blog?.title}
                 width={100}
                 height={100}
                 unoptimized
-
                 className="w-full h-64 object-cover rounded-lg mb-4"
               />
-              <p className="text-gray-700">{blog?.description}</p>
+              <p className={`${darkTheme ? "text-white" : "text-gray-700"}`}>
+                {blog?.description}
+              </p>
             </div>
-            <div className="mb-4">
-              <span className="font-semibold">Content:</span>
-              <div
-                className="text-gray-700 leading-relaxed"
-                dangerouslySetInnerHTML={{ __html: blog?.content }}
-              />
-            </div>
-            <a
-              href={blog?.url}
+
+            {/* <a
+              href={blog?.}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
             >
               Read More
-            </a>
+            </a> */}
           </div>
         </div>
       )}
@@ -108,7 +135,7 @@ const Page = ({ params }) => {
         <Lightbox image={lightboxImage} onClose={closeLightbox} />
       )}
       {/* <footer class="w-full h-fit p-2 bg-red-100 my-2 mb-0 flex flex-col justify-center items-center gap-3"> */}
-        <Footer />
+      <Footer darkTheme={darkTheme} />
       {/* </footer> */}
     </>
   );
