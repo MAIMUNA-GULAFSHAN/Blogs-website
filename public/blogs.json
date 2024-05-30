@@ -1,0 +1,69 @@
+[
+    {
+      "author": "John Doe",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, magna sit amet convallis laoreet, ex ipsum bibendum mauris, ac faucibus risus nunc vel odio. Sed finibus felis eget massa tincidunt, vel vestibulum mi eleifend. Curabitur eu libero massa. Fusce vel nisi non mauris semper egestas. [+500 chars]",
+      "description": "Discover the latest advancements in AI technology and how they're shaping the future of various industries.",
+      "publishedAt": "2024-05-20T10:30:00Z",
+      "source": {
+        "id": null,
+        "name": "TechCrunch"
+      },
+      "title": "The Rise of AI: Transforming Industries",
+      "url": "https://techcrunch.com/2024/05/20/the-rise-of-ai-transforming-industries/",
+      "urlToImage": "https://media.licdn.com/dms/image/D4D12AQExQrhlNjo8ZQ/article-cover_image-shrink_600_2000/0/1684909246745?e=2147483647&v=beta&t=SPhsj51S12vRZ48Y2tx0GRaph7WRX5TyVWH91HlRPVc"
+    },
+    {
+      "author": "Vinamrata Chaturvedi, Quartz",
+      "content": "Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio. [+1000 chars]",
+      "description": "Discover the fascinating world of space exploration and the latest missions to unravel the mysteries of the universe.",
+      "publishedAt": "2024-05-18T18:20:00Z",
+      "source": {
+        "id": null,
+        "name": "National Geographic"
+      },
+      "title": "Unveiling the Secrets of the Cosmos",
+      "url": "https://www.nationalgeographic.com/2024/05/18/unveiling-the-secrets-of-the-cosmos/",
+      "urlToImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBhYvpcVmwQbKC0lIFhD1nI8rY65QhO6adWA&s"
+    },
+   
+    {
+      "author": "Emily Wilson",
+      "content": "Nulla facilisi. In vel urna vel lectus bibendum tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec auctor, nisi in interdum bibendum, enim magna auctor est, sit amet fringilla erat tellus vel nisl. Ut vel ultrices velit. [+800 chars]",
+      "description": "Explore the latest trends in sustainable fashion and how designers are embracing eco-friendly materials.",
+      "publishedAt": "2024-05-19T15:45:00Z",
+      "source": {
+        "id": null,
+        "name": "Vogue"
+      },
+      "title": "The Future of Sustainable Fashion",
+      "url": "https://www.vogue.com/2024/05/19/the-future-of-sustainable-fashion/",
+      "urlToImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9WGHANMJdDH103RKJAz8IMWqaSYdNiJZCMw&s"
+    },
+   
+    {
+      "author": "Sarah Thompson",
+      "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. [+700 chars]",
+      "description": "Explore the latest scientific breakthroughs in renewable energy and how they're paving the way for a greener future.",
+      "publishedAt": "2024-05-17T22:00:00Z",
+      "source": {
+        "id": null,
+        "name": "Scientific American"
+      },
+      "title": "The Future of Renewable Energy: Powering a Sustainable World",
+      "url": "https://www.scientificamerican.com/2024/05/17/the-future-of-renewable-energy-powering-a-sustainable-world/",
+      "urlToImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGwrMx8qMRe9jFwy7osi9pRvZAPzdqTBhZ4A&s"
+    },
+    {
+      "author": "Michael Roberts",
+      "content": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? [+900 chars]",
+      "description": "Explore the latest trends in modern architecture and how designers are pushing the boundaries with innovative designs.",
+      "publishedAt": "2024-05-16T14:30:00Z",
+      "source": {
+        "id": null,
+        "name": "Architectural Digest"
+      },
+      "title": "Redefining Spaces: Modern Architecture's Cutting Edge",
+      "url": "https://www.architecturaldigest.com/2024/05/16/redefining-spaces-modern-architectures-cutting-edge/",
+      "urlToImage": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+    }
+  ]

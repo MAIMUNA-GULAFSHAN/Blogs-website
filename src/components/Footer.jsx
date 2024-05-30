@@ -6,14 +6,14 @@ import {
   FaLinkedin,
   FaGithub,
 } from "react-icons/fa";
-const Footer = () => {
+const Footer = ({ darkTheme }) => {
   return (
-    <div className="w-full h-fit p-2 bg-red-100 my-2 mb-0 flex flex-col justify-center items-center gap-3 fixed bottom-0 mt-5">
+    <div className={`w-full h-fit p-2  ${darkTheme ? 'bg-gray-800 text-white' : 'bg-red-100 text-black'} my-2 mb-0 flex flex-col justify-center items-center gap-3 fixed bottom-0 mt-5`}>
       <div className="flex gap-10">
         <div className="flex items-center ">
         <a
             href="mailto:abdullahahil7861@gmail.com"
-            className="text-gray-600"
+            className="${darkTheme ? 'text-white' : 'text-[#FF7C7C]'}"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -24,7 +24,7 @@ const Footer = () => {
         <div className="flex items-center ">
           <a
             href="https://www.linkedin.com/in/md-abdullah-29a067260/"
-            className="text-gray-600"
+            className= {`${darkTheme ? 'text-white' : 'text-[#FF7C7C]'}`}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -34,7 +34,7 @@ const Footer = () => {
         <div className="flex items-center">
           <a
             href="https://github.com/Md-Abdullah1"
-            className="text-gray-600"
+            className={`${darkTheme ? 'text-white' : 'text-[#FF7C7C]'}`}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -42,7 +42,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <span className="text-base md:text-lg text-[#FF7C7C]  ">
+      <span className={`text-base md:text-lg ${darkTheme ? 'text-white' : 'text-[#FF7C7C]'} `}>
       &copy; 2024 Everyday Blogs . All Rights Reserved.
       </span>
     </div>
