@@ -78,3 +78,5 @@ Contact:
 •	Author: Maimuna gulafshan
 •	Email: maimunagulafshan1@gmail.com
 •	GitHub: - https://github.com/MAIMUNA-GULAFSHAN/Blogs-website.git
+•	Deployed link: -https://blogs-website-nu.vercel.app
+
