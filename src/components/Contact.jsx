@@ -45,14 +45,14 @@ const Contact = ({darkTheme}) => {
               <FaMobileAlt className="text-2xl text-[#FF7C7C] mr-4" />
               <div>
                 <h2 className="text-xl font-semibold">Phone</h2>
-                <p className="text-gray-600">+91 9505934716</p>
+                <p className="text-gray-600">+91 9391572366</p>
               </div>
             </div>
             <div className="flex items-center mb-4">
               <FaEnvelope className="text-2xl text-[#FF7C7C] mr-4" />
               <div>
                 <h2 className="text-xl font-semibold">Email</h2>
-                <p className="text-gray-600">abdullahahil7861@gmail.com</p>
+                <p className="text-gray-600">maimunagulafshan1@gmail.com</p>
               </div>
             </div>
             <div className="flex items-center mb-4">
@@ -67,12 +67,12 @@ const Contact = ({darkTheme}) => {
               <div>
                 <h2 className="text-xl font-semibold">LinkedIn</h2>
                 <a
-                  href="https://www.linkedin.com/in/md-abdullah-29a067260/"
+                  href="https://www.linkedin.com/in/maimuna-gulafshan-31206a260/"
                   className="text-gray-600"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  https://www.linkedin.com/in/md-abdullah-29a067260/
+                 https://www.linkedin.com/in/maimuna-gulafshan-31206a260/
                 </a>
               </div>
             </div>
@@ -81,12 +81,12 @@ const Contact = ({darkTheme}) => {
               <div>
                 <h2 className="text-xl font-semibold">GitHub</h2>
                 <a
-                  href="https://github.com/Md-Abdullah1"
+                  href="https://github.com/MAIMUNA-GULAFSHAN"
                   className="text-gray-600"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  https://github.com/Md-Abdullah1
+                  https://github.com/MAIMUNA-GULAFSHAN
                 </a>
               </div>
             </div>

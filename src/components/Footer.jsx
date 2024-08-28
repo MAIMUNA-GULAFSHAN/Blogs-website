@@ -12,7 +12,7 @@ const Footer = ({ darkTheme }) => {
       <div className="flex gap-10">
         <div className="flex items-center ">
         <a
-            href="mailto:abdullahahil7861@gmail.com"
+            href="mailto:maimunagulafshan1@gmail.com"
             className="${darkTheme ? 'text-white' : 'text-[#FF7C7C]'}"
             target="_blank"
             rel="noopener noreferrer"
@@ -23,7 +23,7 @@ const Footer = ({ darkTheme }) => {
         
         <div className="flex items-center ">
           <a
-            href="https://www.linkedin.com/in/md-abdullah-29a067260/"
+            href="https://www.linkedin.com/in/maimuna-gulafshan-31206a260/"
             // className={`${darkTheme ? 'text-white' : 'text-[#FF7C7C]'}`}
             target="_blank"
             rel="noopener noreferrer"
@@ -33,7 +33,7 @@ const Footer = ({ darkTheme }) => {
         </div>
         <div className="flex items-center">
           <a
-            href="https://github.com/Md-Abdullah1"
+            href="https://github.com/MAIMUNA-GULAFSHAN"
             className={`${darkTheme ? 'text-white' : 'text-[#FF7C7C]'}`}
             target="_blank"
             rel="noopener noreferrer"

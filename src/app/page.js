@@ -56,7 +56,8 @@ console.log('blogs',blogs)
 useEffect(() => {
   if (searchQuery) {
     const filtered = blogs.filter(blog =>
-      blog.title.toLowerCase().includes(searchQuery.toLowerCase())
+      blog.title.toLowerCase().includes(searchQuery.toLowerCase()) || 
+      blog.author.toLowerCase().includes(searchQuery.toLowerCase())
     );
     setFilteredBlogs(filtered);
   } else {

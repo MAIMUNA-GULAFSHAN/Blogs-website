@@ -4,39 +4,23 @@ import { motion } from "framer-motion";
 const Projects = ({darkTheme}) => {
   const projectsData = [
     {
-      title: "CloudNote",
+      title: "ECOMMERCE APPLICATION ",
       description:
-        "CloudNote is a secure and convenient online note-taking application that allows you to create, organize, and access your notes from anywhere, anytime. It offers features like rich text editing for formatting notes, cloud storage for accessibility across devices. Empower your productivity and streamline your note-taking with CloudNote!",
-        technologies:['React ',' React-Router ' ,' Node ',' Express ','Mongodb'],
-      githubUrl: "https://github.com/Md-Abdullah1/CloudNote",
+        "In the e-commerce project, I’ve excelled in API integration, My contributions include implementing ’Add to Cart’ and ’Save for Later’ and many features, enhancing user experience and boosting conversions. Additionally, I’ve refined the UI for intuitive navigation and played a key role in optimizing inventory insights into various technologies used and their advantages in development, enhancing my understanding of diverse tech stack",
+      githubUrl: "https://admin.promodeagro.com/app/inventory",
     },
     {
-      title: "NIDS using ML and DL with MERN Stack",
+      title: "WAREHOUSE MANAGEMENT (INVENTORY) APPLICATION",
       description:
         "This innovative Network Intrusion Detection System (NIDS) leverages the power of Machine Learning (ML) and Deep Learning (DL) for advanced threat detection. Built with the MERN stack (MongoDB, Express.js, React.js, Node.js), it provides real-time threat analysis by continuously monitoring network traffic for suspicious activity. NIDS utilizes trained ML and DL models to identify patterns and anomalies indicative of attacks. Additionally, it allows for customizable alerts to receive real-time notifications of potential threats and offers optional scalability to handle large volumes of network traffic. Enhance network security and proactively mitigate attacks with this robust NIDS solution.",
-        technologies:['Machine Learning ', ' Deep learning ', ' Mongodb ', ' Node ' , ' Express ' , ' Ejs ',' Flask '],
-      githubUrl: "https://github.com/Md-Abdullah1/Network-Intrusion-Detection-System",
+      githubUrl: "https://inventory.promodeagro.com/app/inventory",
     },
     {
       title: "HRMS: Employee Management System",
       description:
         "This comprehensive HR Management System (HRMS) streamlines employee management processes. It facilitates efficient new employee recruitment and onboarding, stores and manages employee information (contact details, payroll, performance reviews),  integrates with time clocks or attendance management systems (optional), and streamlines payroll calculations and generates reports (optional). Optimize your HR processes, improve employee experience, and gain valuable insights with this user-friendly HRMS.",
-        technologies:[' Nextjs ',' Redux Toolkit', ' axios ', ' TTailwind '],
-      githubUrl: "https://github.com/Md-Abdullah1/appkube-hrms-ui",
+      githubUrl: "https://hrms.synectiks.net/",
     },
-    {
-      title: "POS: Point-of-Sale System for Tablets",
-      description:
-        "This mobile POS (Point-of-Sale) system designed for tablets is ideal for managing sales in restaurants, cafes, and retail stores. It offers user-friendly features like adding, editing, and managing product inventory with ease, efficient and accurate sales processing through barcode scanning, support for various payment methods (cash, credit cards, mobile wallets), detailed sales data and customer purchase reports, and optional offline mode to maintain functionality even without an internet connection. Boost your sales efficiency and enhance customer experience with this versatile POS system.It is Under Development and is developed using React-Native",
-        technologies:[ ' React-Native ',' Redux toolkit ', ' axios ', ' javascript '],
-      githubUrl: "https://github.com/Md-Abdullah1/promodeagro-pos-app",
-    },
-    {
-        "title": "Todo List ",
-        "description": "A simple and user-friendly todo list application built with React and Tailwind CSS. Features include adding, editing, and deleting tasks. Local storage ensures tasks persist even after browser refresh. The responsive design adapts seamlessly across various screen sizes.",
-        "githubUrl": "https://github.com/Md-Abdullah1/Todo-List",
-        "technologies": [" React ", " Tailwind CSS ", " Local Storage"]
-      }
   ];
   return (
     <motion.div className="w-[80%]  h-fit p-2 mb-24 flex flex-col gap-5">
@@ -60,7 +44,7 @@ const Projects = ({darkTheme}) => {
                 className="inline-block w-fit bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
               >
                 {" "}
-                View on Github
+                Deployed Link
               </a>
             </motion.div>
           );
