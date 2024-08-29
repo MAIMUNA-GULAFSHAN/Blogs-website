@@ -33,7 +33,7 @@ const Header = ({ onSearch, onThemeChange, darkTheme }) => {
   return (
     <motion.div
       className={`w-full ${
-        darkTheme ? "bg-gray-800" : "bg-red-100"
+        darkTheme ? "bg-gray-800" : "bg-[#92A94E]"
       }  h-fit flex justify-between px-12 items-center py-3`}
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
@@ -41,7 +41,7 @@ const Header = ({ onSearch, onThemeChange, darkTheme }) => {
     >
       <motion.h1
         className={`font-extrabold ${
-          darkTheme ? "text-white" : "text-[#FF7C7C]"
+          darkTheme ? "text-white" : "text-white"
         }  ${isMobile ? "text-md" : "text-2xl"}`}
         whileHover={{ scale: 1.1, color: darkTheme ? "#FFD700" : "#FF7C7C" }}
       >
@@ -80,27 +80,27 @@ const Header = ({ onSearch, onThemeChange, darkTheme }) => {
                   className={`text-md font-semibold p-1 ${
                     pathname !== "/works" &&
                     pathname !== "/contact" &&
-                    (darkTheme ? "text-gray-400" : "text-[#FF7C7C]")
-                  } hover:text-black hover:border-[#FF7C7C]`}
+                    (darkTheme ? "text-gray-400" : "text-black")
+                  } hover:text-black hover:border-white`}
                 >
-                  <Link href="/" className="active:text-[#FF7C7C]">
+                  <Link href="/" className="active:text-white">
                     {" "}
                     Blog
                   </Link>
                 </li>
                 <li
-                  className={`text-md font-semibold p-1 ${
+                  className={`text-md font-semibold p-1 active:text-white"${
                     pathname === "/works" &&
-                    (darkTheme ? "text-gray-400" : "text-[#FF7C7C]")
-                  } hover:text-black hover:border-[#FF7C7C]`}
+                    (darkTheme ? "text-gray-400" : "text-black")
+                  } hover:text-black hover:border-black`}
                 >
-                  <Link href="/works">Works</Link>
+                  <Link href="/works" >Works</Link>
                 </li>
                 <li
                   className={`text-md font-semibold p-1 ${
                     pathname === "/contact" &&
-                    (darkTheme ? "text-gray-400" : "text-[#FF7C7C]")
-                  } hover:text-black hover:border-[#FF7C7C] `}
+                    (darkTheme ? "text-gray-400" : "text-black")
+                  } hover:text-black hover:border-black `}
                 >
                   <Link href="/contact">Contact</Link>
                 </li>
@@ -113,10 +113,10 @@ const Header = ({ onSearch, onThemeChange, darkTheme }) => {
             <li
               className={`text-md font-semibold border p-1 ${
                 pathname === "/" &&
-                (darkTheme ? "text-gray-400" : "text-[#FF7C7C]")
-              } hover:text-black hover:border-[#FF7C7C] rounded-md`}
+                (darkTheme ? "text-gray-400" : "text-white")
+              } hover:text-black hover:border-black rounded-md`}
             >
-              <Link href="/" className="active:text-[#FF7C7C]">
+              <Link href="/" className="active:text-white">
                 {" "}
                 Blog
               </Link>
@@ -124,16 +124,16 @@ const Header = ({ onSearch, onThemeChange, darkTheme }) => {
             <li
               className={`text-md font-semibold border p-1 rounded-md ${
                 pathname === "/works" &&
-                (darkTheme ? "text-gray-400" : "text-[#FF7C7C]")
-              } hover:text-black hover:border-[#FF7C7C]`}
+                (darkTheme ? "text-gray-400" : "text-white")
+              } hover:text-black hover:border-white`}
             >
               <Link href="/works">Works</Link>
             </li>
             <li
               className={`text-md font-semibold border p-1 rounded-md ${
                 pathname === "/contact" &&
-                (darkTheme ? "text-gray-400" : "text-[#FF7C7C]")
-              } hover:text-black hover:border-[#FF7C7C]`}
+                (darkTheme ? "text-gray-400" : "text-white")
+              } hover:text-black hover:border-white`}
             >
               <Link href="/contact">Contact</Link>
             </li>

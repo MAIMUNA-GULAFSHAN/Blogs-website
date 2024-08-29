@@ -38,32 +38,32 @@ const Contact = ({darkTheme}) => {
   return (
     <div className={`min-h-full flex flex-col items-center mb-16  ${darkTheme ? 'bg-gray-800 text-white' : 'bg-white text-black'}`}>
       <main className="w-full max-w-6xl mx-auto p-6 flex flex-col items-center">
-        <h1 className="text-3xl font-bold mb-6 text-[#FF7C7C]">Contact Us</h1>
+        <h1 className="text-3xl font-bold mb-6 text-[#92A94E]">Contact Us</h1>
         <div className="w-full flex flex-col lg:flex-row gap-6">
           <div className={`w-full lg:w-1/2 p-6 rounded-lg shadow-xl  ${darkTheme ? 'bg-gray-800 text-white' : 'bg-white text-black'}`}>
             <div className="flex items-center mb-4">
-              <FaMobileAlt className="text-2xl text-[#FF7C7C] mr-4" />
+              <FaMobileAlt className="text-2xl text-[#92A94E] mr-4" />
               <div>
                 <h2 className="text-xl font-semibold">Phone</h2>
                 <p className="text-gray-600">+91 9391572366</p>
               </div>
             </div>
             <div className="flex items-center mb-4">
-              <FaEnvelope className="text-2xl text-[#FF7C7C] mr-4" />
+              <FaEnvelope className="text-2xl text-[#92A94E] mr-4" />
               <div>
                 <h2 className="text-xl font-semibold">Email</h2>
                 <p className="text-gray-600">maimunagulafshan1@gmail.com</p>
               </div>
             </div>
             <div className="flex items-center mb-4">
-              <FaMapMarkerAlt className="text-2xl text-[#FF7C7C] mr-4" />
+              <FaMapMarkerAlt className="text-2xl text-[#92A94E] mr-4" />
               <div>
                 <h2 className="text-xl font-semibold">Address</h2>
                 <p className="text-gray-600">Hyderabad, India</p>
               </div>
             </div>
             <div className="flex items-center mb-4">
-              <FaLinkedin className="text-2xl text-[#FF7C7C] mr-4" />
+              <FaLinkedin className="text-2xl text-[#92A94E] mr-4" />
               <div>
                 <h2 className="text-xl font-semibold">LinkedIn</h2>
                 <a
@@ -77,7 +77,7 @@ const Contact = ({darkTheme}) => {
               </div>
             </div>
             <div className="flex items-center">
-              <FaGithub className="text-2xl text-[#FF7C7C] mr-4" />
+              <FaGithub className="text-2xl text-[#92A94E] mr-4" />
               <div>
                 <h2 className="text-xl font-semibold">GitHub</h2>
                 <a
@@ -147,7 +147,7 @@ const Contact = ({darkTheme}) => {
               </div>
               <button
                 type="submit"
-                className="w-full bg-[#FF7C7C] text-white p-2 rounded-md hover:bg-[#ff4c4c] transition"
+                className="w-full bg-[#92A94E] text-white p-2 rounded-md hover:bg-[#92A94E] transition"
               >
                 Submit
               </button>

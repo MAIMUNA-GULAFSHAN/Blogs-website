@@ -24,7 +24,7 @@ const Projects = ({darkTheme}) => {
   ];
   return (
     <motion.div className="w-[80%]  h-fit p-2 mb-24 flex flex-col gap-5">
-      <h2 className="text-xl text-[#FF7C7C] font-bold "> Works and Projects </h2>
+      <h2 className="text-xl text-[#92A94E] font-bold "> Works and Projects </h2>
       <div className="flex flex-col gap-5 items-center">
       {projectsData &&
         projectsData.map((val) => {
@@ -34,9 +34,9 @@ const Projects = ({darkTheme}) => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.3 }}>
-              <motion.h2 className="text-lg text-[#FF7C7C] font-semibold" whileHover={{ color: darkTheme ? "#FFD700" : "#0000FF" }}>{val.title}</motion.h2>
-              <motion.p whileHover={{ color: darkTheme ? "#FFD700" : "#0000FF" }}>{val.description}</motion.p>
-               <p className="text-base text-[#FF7C7C] ">{val.technologies}</p>
+              <motion.h2 className="text-lg text-[#92A94E] font-semibold" whileHover={{ color: darkTheme ? "#92A94E" : "white" }}>{val.title}</motion.h2>
+              <motion.p whileHover={{ color: darkTheme ? "black" : "#92A94E" }}>{val.description}</motion.p>
+               <p className="text-base text-#92A94E ">{val.technologies}</p>
               <a
                 href={val.githubUrl}
                 target="_blank"
