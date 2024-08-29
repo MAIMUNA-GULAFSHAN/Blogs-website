@@ -3,7 +3,7 @@ TTo run locally on your system:
 1.	Clone the repository:
 bash
 Copy code
-git clone https://github.com/Md-Abdullah1/Everyday-blogs.git
+git clone https://github.com/MAIMUNA-GULAFSHAN/Blogs-website.git
 cd Everyday-blogs
 2.	Install dependencies:
 bash
@@ -75,7 +75,8 @@ git push origin feature/your-feature-name
 
 Contact:
 
-•	Author: Md Abdullah
-•	Email: abdullahahil7861@gmail.com
-•	GitHub: - https://github.com/Md-Abdullah1/Everyday-blogs.
-•	Deployment link: https://everyday-blogs.vercel.app/
+•	Author: Maimuna gulafshan
+•	Email: maimunagulafshan1@gmail.com
+•	GitHub: - https://github.com/MAIMUNA-GULAFSHAN/Blogs-website.git
+•	Deployed link: -https://blogs-website-nu.vercel.app
+
